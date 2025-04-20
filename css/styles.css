@@ -45,7 +45,6 @@ img {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    
 }
 .page-header .container {
   display: flex;
@@ -72,9 +71,8 @@ img {
 .page-nav-list {
   display: flex;
   align-items: center;
-  gap: 40px;  
+  gap: 40px;
 }
-
 
 .page-nav-item {
   letter-spacing: 2%;
