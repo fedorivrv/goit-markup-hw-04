@@ -61,7 +61,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #404bbf;
   margin-right: 76px;
 }
 .page-logo-second-halfword {
@@ -107,6 +107,9 @@ img {
 }
 .page-header-contacts-list:last-child {
   margin-right: 0;
+}
+.contacts-kist-item {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-item {
   line-height: 1.5;
@@ -292,7 +295,7 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.our-portfolio-item:hover .portfolio-image-text {
+.our-portfolio-item:hover p {
   transform: translateY(0%);
 }
 .portfolio-image-container {
@@ -336,7 +339,6 @@ img {
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 100px 0;
-  
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -370,7 +372,6 @@ img {
 .socials-list-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link {
   width: 100%;
@@ -380,6 +381,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link:hover {
   background-color: #404bbf;
@@ -430,17 +432,17 @@ img {
   height: 32px;
   background-position: -336px 0;
 }
-.footer-container{
+.footer-container {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
 }
 
-.footer-socials-text{
+.footer-socials-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#FFFFFF;
-  margin-bottom: 16px; 
+  color: #ffffff;
+  margin-bottom: 16px;
 }
