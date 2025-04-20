@@ -22,6 +22,7 @@ a {
 }
 ul {
   list-style: none;
+  padding-left: 0;
 }
 li {
   padding-left: 0;
@@ -359,7 +360,7 @@ img {
   line-height: 1.5;
   max-width: 264px;
 }
-.footer-content {
+.footer-container {
   display: flex;
   align-items: baseline;
 }
@@ -376,6 +377,7 @@ img {
 }
 .footer-socials-list {
   display: flex;
+  justify-content: center;
   gap: 16px;
 }
 .footer-socials-list-item {
