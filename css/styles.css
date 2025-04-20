@@ -434,8 +434,7 @@ img {
 }
 .footer-container {
   display: flex;
-  align-items: baseline;
-  margin-right: 120px;
+  align-items: baseline;  
 }
 
 .footer-socials-text {
@@ -445,4 +444,11 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+.footer-logo-container{
+  margin-right: 120px;
+}
+.socials-list{
+  display: flex;
+  gap: 16px; 
 }
